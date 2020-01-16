@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>_a-0000e3d9-c12d-8000-9bd6-011c48011c48_51609</versionUuid>
+    <rule>
+        <name>checkingwebcontent</name>
+        <uuid>_a-0000e3d9-c12d-8000-9bd6-011c48011c48_51598</uuid>
+        <description></description>
+        <parentUuid>_a-0000e39a-6cbf-8000-9bca-011c48011c48_33822</parentUuid>
+        <visibility>
+            <advertise>false</advertise>
+            <hierarchy>true</hierarchy>
+            <indexable>true</indexable>
+            <quota>false</quota>
+            <searchable>true</searchable>
+            <system>false</system>
+            <unlogged>false</unlogged>
+        </visibility>
+        <definition>{
+  #"SYSTEM_SYSRULES_webContentField_v1"(
+    label: "Web Content",
+    labelPosition: "ABOVE",
+    source: "https://docs.google.com/document/d/1ROifKYHdeT_5NXNbBxbGaKSVNsxADn7siQ9-yF_WfGM/edit?ts=5dcf2184",
+    height: "MEDIUM"
+  ),
+  #"SYSTEM_SYSRULES_webContentField_v1"(
+    label: "Web Content",
+    labelPosition: "ABOVE",
+    source: "https://onedrive.live.com/edit.aspx?action=editnew&amp;resid=FE6A7831B923A5B7!105&amp;ithint=file%2cdocx&amp;wdNewAndOpenCt=1579116698786&amp;wdPreviousSession=f0cb84ee-d753-4bba-83d1-fa9ef02c357f&amp;wdOrigin=OFFICECOM-WEB.START.NEW",
+    height: "MEDIUM"
+  )
+}</definition>
+        <preferredEditor>interface</preferredEditor>
+        <offlineEnabled>false</offlineEnabled>
+    </rule>
+    <roleMap public="true">
+        <role inherit="true" allowForAll="false" name="readers">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="true" allowForAll="false" name="authors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="true" allowForAll="false" name="administrators">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyReaders">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAuthors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAdministrators">
+            <users/>
+            <groups/>
+        </role>
+    </roleMap>
+    <history>
+        <historyInfo versionUuid="_a-0000e3d9-c12d-8000-9bd6-011c48011c48_51609"/>
+    </history>
+</contentHaul>
